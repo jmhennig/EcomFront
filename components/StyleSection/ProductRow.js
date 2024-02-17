@@ -12,7 +12,6 @@ const StyledRow = styled.div`
     &:hover {
         img{
             right: 5%;
-            transition: right 0.3s ease;
         }
     }
 `;
@@ -69,9 +68,6 @@ const BackgroundComponent = styled.div`
         }};
         
     }
-`;
-const StyledArrow = styled(Image)`
-
 `;
 
 export default function ProductRow({productId,name,bgColor,image,children}) {    

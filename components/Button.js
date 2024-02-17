@@ -55,10 +55,11 @@ export const ButtonStyle = css`
         background-color: transparent;
         color: ${primary};
         border: 2px solid ${primary};
+        transition: 0.2s ease;
         &:hover{
             background-color: ${primary};
             color: ${highlight};
-            transition: 0.2s ease;
+            
         }
     `}
     // Large

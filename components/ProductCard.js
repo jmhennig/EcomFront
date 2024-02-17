@@ -7,9 +7,10 @@ import { useContext } from "react";
 import { CartContext } from "./CartContext";
 
 const ProductWrapper = styled.div`
+    transition: 0.3s ease-in-out;
     &:hover {
         transform: translate(0,-10px);
-        transition: 0.3s ease-in-out;
+        box-shadow: 10px 0px 30px black;
     }
 `;
 

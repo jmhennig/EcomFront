@@ -15,7 +15,8 @@ const StyledImage = styled.img`
     width: 30vw;
     height: auto;
     padding: 0;
-    right: -130%;
+    right: -110%;
+    transition: right 0.3s ease-in-out;
     z-index: 2;
 `;
 const StyledArrow = styled(Image)`

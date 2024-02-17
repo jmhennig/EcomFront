@@ -33,10 +33,13 @@ const StyledNav = styled.nav`
 `;
 const NavLink = styled(Link)`
     color: #fff;
+    font-weight: 400;
     text-decoration: none;
+    transition: 0.3s ease;
     &:hover {
         color: ${primary};
-        transition: 0.5s ease;
+        text-shadow: 0.5px 0.5px 0 white;
+        transform: translate(-2px, -2px);
     }
 `;
 
